@@ -1,0 +1,96 @@
+#content_header1 {
+	float: left;
+	text-align: left;
+	word-wrap: normal;
+	word-break: normal;
+	width: 100%;
+	height: auto;
+}
+
+.titleDiv {
+	width: 70%;
+	margin: auto;
+}
+
+.appTitle {
+	color: #CCC9DC;
+	text-align: left;
+}
+
+@keyframes cursor-blink {
+  0% {
+    background: #88888822;
+  }
+  50% {
+  	background: #888888CC;
+  }
+  100% {
+  	background: #88888822;
+  }
+}
+
+.nextChar {
+	background: #888888FF;
+	border-radius: 5px;
+	animation: cursor-blink 1.0s steps(100) infinite;
+}
+
+.incorrectRun {
+	color: #dd3355;
+}
+
+.correctRun {
+	color: #22dd66;
+}
+
+.controls {
+	width: 70%;
+	margin: auto;
+	text-align: left;
+}
+
+.tbtButton {
+  border: none;
+  border-radius: 3px;
+  color: white;
+  padding: 8px 15px;
+  text-align: left;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.5s;
+  float: right;
+  display: inline-grid;
+  margin-left: 10px;
+}
+
+#reloadButton {
+	background-color: #20AF35;
+}
+
+#reloadButton:hover {
+	background-color: #208F35;
+	transition: 0.5s;
+}
+
+#resetButton {
+	background-color: #AF3535;
+}
+
+#resetButton:hover {
+	background-color: #8F3535;
+	transition: 0.5s;
+}
+
+.slider {
+	float: left;
+	display: inline-grid;
+	margin-left: 10px;
+}
+
+.sliderLabel {
+	color: #FFF;
+	float: left;
+	display: inline-grid;
+	margin-left: 10px;
+}

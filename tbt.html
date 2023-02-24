@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<head>
+	<!-- trial by typing html -->
+	<!-- word list sourced from https://www.wordfrequency.info/samples.asp -->
+	<title>Trial by Typing</title>
+	<meta name = "description" content = "A Portfolio for Kyle Hulscher" />
+	<meta name = "keywords" content = "portfolio, computer science, projects, kyle, hulscher, github, iowa, uiowa, university of iowa, cs, coding, java, python, css, html, javascript, sql, 
+	php, c#, winforms, dotnet, university, software, software dev, developer" />
+	<script src="tbt.js"></script>
+	<object data="./word_list.json" style="display: none"></object>
+	<link rel="stylesheet" type="text/css" href="main.css" >
+	<link rel="stylesheet" type="text/css" href="sidebar.css" >
+	<link rel="stylesheet" type="text/css" href="tbt.css" >
+	<link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+	<div id="main-body">
+		<div class="titleDiv">
+			<h1 class="appTitle">Trial by Typing</h1>
+		</div>
+		<div class="row" id="content">
+			<h1 id="content_header1"></h1>
+		</div>
+		<div class="controls">
+			<!--<button onclick="setTimeout(myFunction, 1000);">Try it</button>-->
+			<button id="reloadButton" class="tbtButton" onclick="reloadText();">Reload</button>
+			<button id="resetButton" class="tbtButton" onclick="resetText();">Reset</button>
+			<input id="difficultySlider" class="slider" type="range" min="0" max="6" step="1">
+			<label class="sliderLabel" for="difficultySlider">Difficulty</label>
+		</div>
+		<div class="controls">
+			<!--<button onclick="setTimeout(myFunction, 1000);">Try it</button>-->
+			<input id="lengthSlider" class="slider" type="range" min="5" max="50" step="1">
+			<label class="sliderLabel" for="difficultySlider">Length</label>
+		</div>
+	</div>
+</body>
